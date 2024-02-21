@@ -1,0 +1,66 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+.meal-type {
+  text-align: center;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  float: right;
+  width: 100px;
+}
+
+section {
+  clear: right;
+  padding: 10px
+}
+
+article {
+  background-color: grey;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+float {
+  float: left
+}
+
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 33.33%
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6 {
+    width: 50%
+  }
+  .col-md-12 {
+    width: 100%
+  }
+}
+
+#chicken {
+  background-color: LightPink;
+}
+
+#beef {
+  background-color: FireBrick;
+  color: white;
+}
+
+#sushi {
+  background-color: Wheat;
+}
