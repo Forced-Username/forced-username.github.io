@@ -32,7 +32,7 @@ WARNING!!! WARNING!!!
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 names.forEach(name =>
-  name[0] === 'J'
+  name.startsWith('J')
     ? byeSpeaker.speak(name)
     : helloSpeaker.speak(name)
 )
